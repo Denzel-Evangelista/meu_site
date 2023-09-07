@@ -6,7 +6,7 @@ app = Flask(__name__)
 #route >> caminho depois do dominio
 #função >> o que você quer exibir naquela página
 
-@app.route("/home")
+@app.route("/")
 def homepage():
     return render_template("homepage.html")
 
