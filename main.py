@@ -16,7 +16,7 @@ def contatos():
 
 @app.route("/usuario/<nome_usuario>")
 def usuario(nome_usuario):
-    return render_template("usuario.html", nome_usuario=nome_usuario)
+    return render_template("usuario.html", nome_usuario=nome_usuario) 
 
 if __name__ == "__main__":
     app.run(debug=True) #coloca o site no ar
