@@ -1,1 +1,1 @@
-web: gunicorn main:app
+web: gunicorn --chdir meu_site main:app
