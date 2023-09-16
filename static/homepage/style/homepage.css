@@ -1,3 +1,10 @@
+prologo {
+    text-align: center;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
 body {
-    background-color: blue;
+    background-color: black;
 }
