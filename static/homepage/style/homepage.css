@@ -1,7 +1,6 @@
 body {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 16px;
     font-style: italic;
 }
 
@@ -10,11 +9,14 @@ body {
     padding: 0;
 }
 
-h1 {
-    padding-bottom: 18px;
+.title {
+    padding-bottom: 26px;
+    font-size: 26px;
+    text-decoration:underline;
+    text-align: center;
 }
 
-li:hover, h1:hover {
+li:hover {
     cursor: pointer;
     opacity: 0.2;
 }
@@ -24,16 +26,16 @@ ul {
     padding: 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
+    padding-top: 30px;
 }
 
 #cabecalho {
-    border: 2px solid purple;
     color: white;
-    text-align: center;
     padding: 10px 20px;
     font-size: 18px;
     align-items:center ;
+    margin-bottom: 100px;
 }
 
 #perfil {
@@ -43,10 +45,13 @@ ul {
     float: left;
     margin-right: 5px;
     text-align: center;
+    font-size: 18px;
 }
 
-#main {
-    border: 2px solid purple;
+#objetivos {
     height: 601px;
     margin-left: auto;
+    color: white;
+    text-align: center;
+    font-size: 18px;
 }
